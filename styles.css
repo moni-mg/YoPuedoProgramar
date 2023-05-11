@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 50px;
+  }
+  
+  .navbar-brand {
+    height: 50px;
+  }
+
+.seccion-titulo {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    transition-duration: 0.3s ease-in-out; 
+}
+
+.carousel {
+    height: 500px;
+}
+#destinos {
+    cursor: pointer;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+  opacity: 1;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+.carousel-control-prev.active,
+.carousel-control-next.active {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.carousel-control-prev:focus,
+.carousel-control-next:focus {
+  outline: none;
+  box-shadow: none;
+}

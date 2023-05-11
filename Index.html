@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Monica Martinez</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="ruta/a/tu/archivo.js"></script>
+
+</head>
+
+<body><nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" height="40" class="d-inline-block align-center" alt="">
+            Turismo
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Destinos">Destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Actividades">Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Alojamiento">Alojamiento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="Inicio" class="py-5 bg-light">
+    <div class="container">
+        <hr class="border-0">
+      <div class="row">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <h2 class="font-weight-bold mb-4">Descubre los mejores destinos con nosotros</h2>
+          <p class="lead mb-4">Somos una empresa de turismo dedicada a ofrecerte las mejores experiencias en los destinos más atractivos del mundo. Nuestro equipo de profesionales te ayudará a planificar el viaje de tus sueños, con paquetes personalizados que se ajustan a tus necesidades y preferencias.</p>
+          <p class="mb-4">No importa si quieres relajarte en una playa paradisíaca, hacer senderismo en las montañas, explorar ciudades históricas o disfrutar de la naturaleza en su estado más puro. Con nosotros, podrás descubrir todo lo que el mundo tiene para ofrecerte, de la mano de expertos en turismo que te garantizan una experiencia inolvidable.</p>
+          <a href="#Destinos" class="btn btn-primary">Ver Destinos</a>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="img/logo.png" alt="Imagen de Destinos" class="img-fluid">
+        </div>
+      </div>
+      <hr  class="border-0">
+    </div>
+  </section>
+
+<section id="Destinos">
+    <div class="container mt-3">
+        <hr class="border-0 seccion-titulo" style="margin-top: 50px;">
+        <h2>Últimos Destinos</h2>
+        <div class="card-deck" id="destinos">
+            <div class="card" onclick="window.location.href='https://youtu.be/dQw4w9WgXcQ'">
+                <img class="card-img-top" src="img/destino1.jpg" alt="Destino 1">
+                <div class="card-body">
+                    <h5 class="card-title">Destino 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac neque vel erat
+                        ornare convallis eu ut elit. Etiam non elit auctor, aliquet purus eu, mollis ante.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Actualizado hace 5 minutos</small>
+                </div>
+
+            </div>
+            <div class="card" onclick="window.location.href='https://youtu.be/dQw4w9WgXcQ'">
+                <img class="card-img-top" src="img/destino2.jpg" alt="Destino 2">
+                <div class="card-body">
+                    <h5 class="card-title">Destino 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac neque vel erat
+                        ornare convallis eu ut elit. Etiam non elitauctor, aliquet purus eu, mollis ante.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Actualizado hace 10 minutos</small>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='https://youtu.be/dQw4w9WgXcQ'">
+                <img class="card-img-top" src="img/destino3.jpeg" alt="Destino 3">
+                <div class="card-body">
+                    <h5 class="card-title">Destino 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac neque vel erat
+                        ornare convallis eu ut elit. Etiam non elit auctor, aliquet purus eu, mollis ante.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Actualizado hace 15 minutos</small>
+                </div>
+            </div>
+        </div>
+        <hr class="border-0">
+    </div>
+</section>
+<section id="Actividades">
+
+    <div class="container-fluid">
+        <hr class="border-0 seccion-titulo" style="margin-top: 50px;">
+        <h2 class="my-4 text-center">Actividades</h2>
+        <div id="carouselActividades" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselActividades" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselActividades" data-slide-to="1"></li>
+                <li data-target="#carouselActividades" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/actividad1.jpg" class="d-block w-100" alt="Actividad 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Actividad 1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas modi reiciendis perspiciatis
+                            nam odio aperiam provident maiores libero vero rem! Iure quaerat nobis nulla nam tempora
+                            libero dolore commodi. Ipsam.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/actividad2.jpg" class="d-block w-100" alt="Actividad 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Actividad 2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas modi reiciendis perspiciatis
+                            nam odio aperiam provident maiores libero vero rem! Iure quaerat nobis nulla nam tempora
+                            libero dolore commodi. Ipsam.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/actividad3.jpg" class="d-block w-100" alt="Actividad 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Actividad 3</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas modi reiciendis perspiciatis
+                            nam odio aperiam provident maiores libero vero rem! Iure quaerat nobis nulla nam tempora
+                            libero dolore commodi. Ipsam.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselActividades" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"><</span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselActividades" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">&gt;</span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+</section>
+<section id="Alojamiento">
+
+    <div class="container mt-3 ">
+        <hr class="border-0 seccion-titulo" style="margin-top: 50px;">
+        <h2 >Alojamiento</h2>
+        <hr class="border-0">
+
+        <div class="card-deck">
+    
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Básico</h4>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" src="img/alojamiento1.jpg" alt="Alojamiento Lujo">
+                    <h1 class="card-title pricing-card-title">$99 <small class="text-muted">/ noche</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Habitación estándar</li>
+                        <li>Desayuno incluido</li>
+                        <li>Acceso a la piscina</li>
+                        <li>Wi-Fi gratis</li>
+                    </ul>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-lg btn-block btn-primary">Reservar</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Premium</h4>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" src="img/alojamiento2.jpg" alt="Alojamiento Lujo">
+                    <h1 class="card-title pricing-card-title">$199 <small class="text-muted">/ noche</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Habitación superior</li>
+                        <li>Desayuno incluido</li>
+                        <li>Acceso al spa</li>
+                        <li>Wi-Fi gratis</li>
+                    </ul>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-lg btn-block btn-primary">Reservar</a>
+                </div>
+            </div>
+            <div class="card ">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Lujo</h4>
+                </div>
+                <div class="card-body">
+                    <img class="card-img-top" src="img/alojamiento3.jpg" alt="Alojamiento Lujo">
+                    <h1 class="card-title pricing-card-title">$299 <small class="text-muted">/ noche</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Suite de lujo</li>
+                        <li>Desayuno incluido</li>
+                        <li>Acceso al spa</li>
+                        <li>Wi-Fi gratis</li>
+                        <li>Servicio de habitaciones 24 horas</li>
+                    </ul>
+                    <a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-lg btn-block btn-primary">Reservar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Contacto">
+
+    <div class="container mt-3 ">
+        <hr class="border-0 seccion-titulo" style="margin-top: 50px;">
+        <h2>Contacto</h2>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+            <a href="https://404-not-found-devch.netlify.app/" class="btn btn-lg btn-primary">Enviar</a>
+        </form>
+    </div>
+</section>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+<script>
+    var carouselActividades = document.querySelector('#carouselActividades');
+    var carousel = new bootstrap.Carousel(carouselActividades, {
+        interval: 2000,
+        wrap: true
+    });
+</script>
+</body>
+</html>
